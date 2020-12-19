@@ -1,0 +1,58 @@
+.navbar{
+    background-color: green;
+    height:10rem; 
+}
+.maejo_header{
+      height: 100px;
+      /*ระยะขอบด้านขวา นอกกล่อง*/
+      margin-left: 3rem;
+}
+.maejo_text{
+      /* ขนาด font */
+      font-size: 50px; 
+      /* ขนาดความหนา */
+      font-weight: bold;
+      color: white;
+      /* เงาตัวอักษร */
+      text-shadow: 2px 2px 4px darkgrey;
+
+}   
+.maejo_eng_text{
+      /* ขนาด font */
+      font-size: 40px; 
+      /* ขนาดความหนา */
+      font-weight: bold;
+      color: white;
+      /* เงาตัวอักษร */
+      text-shadow: 2px 2px 4px darkgrey;
+
+}
+.navbar_text{ 
+    background-color: rgb(159, 248, 159);
+
+}
+.Image_MaejoOne{
+  max-height: 500px;
+  max-width: 1600px;
+border: 1px solid black;
+}
+.Image_MaejoTwo{
+  max-height: 500px;
+  max-width: 1600px;
+border: 1px solid black;
+}
+.Image_MaejoTree{
+
+  max-height: 500px;
+  max-width: 1600px;
+  border: 1px solid black;
+}
+.Image_MaejoFour{
+  max-height: 500px;
+  max-width: 1600px;
+  border: 1px solid black;
+}
+ 
+/* .navbar_Image{
+  margin-left: 1rem;
+}  */
