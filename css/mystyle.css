@@ -32,27 +32,28 @@
 
 }
 .Image_MaejoOne{
-  max-height: 500px;
-  max-width: 1600px;
+  max-height: 100%;
+  max-width: 100%;
 border: 1px solid black;
 }
 .Image_MaejoTwo{
-  max-height: 500px;
-  max-width: 1600px;
+  max-height: 100%;
+  max-width: 100%;
 border: 1px solid black;
 }
 .Image_MaejoTree{
 
-  max-height: 500px;
-  max-width: 1600px;
+  max-height: 100%;
+  max-width: 100%;
   border: 1px solid black;
 }
 .Image_MaejoFour{
-  max-height: 500px;
-  max-width: 1600px;
+  max-height: 100%;
+  max-width: 100%;
   border: 1px solid black;
 }
- 
-/* .navbar_Image{
-  margin-left: 1rem;
-}  */
+ .navbar_Image{
+  margin-top: 3rem;
+  margin-left: 13rem;
+  margin-right: 13rem;
+}  
