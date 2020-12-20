@@ -1,3 +1,4 @@
+
 .navbar{
     background-color: green;
     height:10rem; 
@@ -31,7 +32,7 @@
     background-color: rgb(159, 248, 159);
 
 }
-.Image_MaejoOne{
+/* .Image_MaejoOne{
   max-height: 100%;
   max-width: 100%;
 border: 1px solid black;
@@ -51,9 +52,15 @@ border: 1px solid black;
   max-height: 100%;
   max-width: 100%;
   border: 1px solid black;
-}
- .navbar_Image{
-  margin-top: 3rem;
+} */
+ /* .navbar_Image{
+  margin-top: 4rem;
   margin-left: 13rem;
   margin-right: 13rem;
-}  
+}   */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
