@@ -26,6 +26,41 @@
 
 } */
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  padding: 0 20px;
+  background-color: white;
+  top: 0;
+  left: 0;
+}
+
+.nav {
+margin: 0 auto 0 100px;
+
+}
+.nav ul {
+display: flex;
+list-style-type: none;
+color: black;
+}
+
+.separator {
+margin: 0 30px;;
+}
+
+.separator1 {
+  margin: 0 10px;;
+  }
+
+  .separator2 {
+    margin: 100 0px;;
+    }
+
  .navbar_logo {
   height: 100px;
   text-align: left;

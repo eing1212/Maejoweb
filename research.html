@@ -7,6 +7,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
     <!-- ชื่อบนสุดเเละโลโก้ -->
     <title>Maejo University</title>
     <link rel="shortcut icon"
@@ -36,13 +37,24 @@
         integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
         </script>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 
 </head>
+<!-- <style>
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+</style> -->
 
 <body>
-    <div class="m-auto">
+  
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+    
         <!-- <div class="top-bar">
         <div class="container">
             <div class="col-md-12 text-right">
@@ -50,7 +62,7 @@
             </div>
         </div>
     </div> -->
-    
+
 
         <div class="row" style="background-color: #003300;">
             <div class="col-md-1">
@@ -79,44 +91,58 @@
             </div>
         </div>
 
-        
-            <div class="row bgcolor" style="padding-bottom: 1rem;" id="Markup">
-                <div class="col-md-3 text-center textcenter">
-                    <a style="text-decoration: none; color: rgb(255, 255, 255);"
-                        href=" http://127.0.0.1:5500/about.html">เกี่ยวกับมหาวิทยาลัย</a>
-                </div>
-                <div class="col-md-3 text-center" style="border-right: solid 5px white">
-                    <a style="text-decoration: none;color: rgb(255, 255, 255);"
+        <div class="row justify-content-center" style="border-bottom: 2px grey solid;"></div>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(3, 77, 0); text-align: justify; ">
+            <!-- <a class="navbar-brand" href="index.html"><img src="img/มหาวิทยาลัยแม่โจ้_edit.png" height="10" alt=""></a>  -->
+
+            <div class="col-md-2"></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Collapsible CT -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <!-- Links nav -->
+                <ul class="navbar-nav mr-auto">
+                    <li class=" btn-outline-success nav-item  ">
+                        <a class="nav-link" style="text-decoration: none; color: rgb(255, 255, 255);"
+                        href="http://127.0.0.1:5500/index.html">หน้าแรก <span class="sr-only"></span></a>
+                    </li>
+                    <span class="separator"></span>
+                    <li class=" btn-outline-success nav-item">
+                        <a class="nav-link" style="text-decoration: none; color: rgb(255, 255, 255);"
+                        href=" http://127.0.0.1:5500/about.html"">เกี่ยวกับมหาวิทยาลัย</a>
+                    </li>
+                    <span class="separator"></span>
+                    <li class=" btn-outline-success nav-item">
+                        <a class="nav-link" style="text-decoration: none;color: rgb(255, 255, 255);"
                         href="http://127.0.0.1:5500/agency.html">หน่วยงาน</a>
-                </div>
-                <div class="col-md-3 text-center" style="border-right: solid 5px white">
-                    <a style="text-decoration: none;color: rgb(255, 255, 255);"
-                        href="http://127.0.0.1:5500/research.html">วิจัยเเละบริการวิชาการ</a>
-                </div>
-                <div class="col-md-3 text-center">
-                    <a style="text-decoration: none;color: rgb(255, 255, 255);"
+                    </li>
+                    <span class="separator"></span>
+                    <li class=" btn-outline-success nav-item">
+                        <a class="nav-link"style="text-decoration: none;color: rgb(255, 255, 255);"
+                        href="http://127.0.0.1:5500/research.html">วิจัยและวิชาการ</a>
+                    </li>
+                    <span class="separator"></span>
+                    <li class=" btn-outline-success nav-item">
+                        <a class="nav-link"style="text-decoration: none;color: rgb(255, 255, 255);"
                         href="http://127.0.0.1:5500/around.html">รอบรั้วมหาวิทยาลัย</a>
-                </div>
+                    </li>
+                    <span class="separator"></span>
+                </ul>
+
+                <!--Search form-->
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <span class="separator1"></span>
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </div>
-        
-
-
-
-        
-
-
-       
-            <div class="container" style="margin-top: 1rem;">
-                <div class="col-md-12">
-                  <div class="row">
-                    <div class="col-md-4 liab2">
-                      <p class="p-0 m-0 teab2"> วิจัยเเละบริการวิชาการ </p>
-                    </div>
-                    <div class="col-md-8">
-                    </div>
-                  </div>
+        </nav>
           
-          
+        <!--end nav-->
+
                   <div class="col-md-12">
                     <div class="row">
                       <div class="col-md-12" style="padding-top: 1rem; margin-top: 1rem;">
