@@ -39,487 +39,352 @@
 
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+        </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
 
 </head>
-body>
 
-    <style>
-        body {
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        }
-    </style>
 
-    <!-- หัวเรื่อง -->
-    <div class="row" style="background-color: #E8FFFF">
-        <div class="col-md-1">
+<style>
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+</style>
 
-        </div>
-        <div class="col-md-10">
-            <div class="row" style="padding: 1rem;">
-                <div class="col-md-1">
-                    <a href="http://127.0.0.1:5500/index.html">
-                        <img class="navbar_logo_center"
-                            src="https://upload.wikimedia.org/wikipedia/th/4/43/%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B9%82%E0%B8%88%E0%B9%89_edit.png"
-                            alt="maejo"></a>
-                </div>
-                <div class="col-md-4">
-                    <div class="col-md-12">
-                        <p class="m-0 maejo_text" style="color: #213E3B;">มหาวิทยาลัยแม่โจ้</p>
-                    </div>
-                    <div class="col-md-12">
-                        <p class="m-0 maejo_eng_text" style="color: #41AEA9;">Maejo University</p>
-                    </div>
-                </div>
+<!-- หัวเรื่อง -->
+<div class="row" style="background-color: #E8FFFF">
+    <div class="col-md-1">
 
+    </div>
+    <div class="col-md-10">
+        <div class="row" style="padding: 1rem;">
+            <div class="col-md-1">
+                <a href="http://127.0.0.1:5500/index.html">
+                    <img class="navbar_logo_center"
+                        src="https://upload.wikimedia.org/wikipedia/th/4/43/%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B9%82%E0%B8%88%E0%B9%89_edit.png"
+                        alt="maejo"></a>
             </div>
+            <div class="col-md-4">
+                <div class="col-md-12">
+                    <p class="m-0 maejo_text" style="color: #213E3B;">มหาวิทยาลัยแม่โจ้</p>
+                </div>
+                <div class="col-md-12">
+                    <p class="m-0 maejo_eng_text" style="color: #41AEA9;">Maejo University</p>
+                </div>
+            </div>
+
         </div>
     </div>
+</div>
 
-    <!-- tabตัวเลือก  -->
-    <div class="row justify-content-center" style="border-bottom: 2px grey solid;"></div>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#086972; text-align: justify; ">
-        <!-- <a class="navbar-brand" href="index.html"><img src="img/มหาวิทยาลัยแม่โจ้_edit.png" height="10" alt=""></a>  -->
+<!-- tabตัวเลือก  -->
+<div class="row justify-content-center" style="border-bottom: 2px grey solid;"></div>
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color:#086972; text-align: justify; ">
+    <!-- <a class="navbar-brand" href="index.html"><img src="img/มหาวิทยาลัยแม่โจ้_edit.png" height="10" alt=""></a>  -->
 
-        <div class="col-md-2"></div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="col-md-2"></div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <!-- Collapsible CT -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <!-- Collapsible CT -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-            <!-- Links nav -->
-            <div class="container">
-                <ul class="navbar-nav mr-auto">
-                    <li class=" btn-outline-success nav-item  ">
-                        <a class="nav-link" style=" text-decoration: none; color: rgb(255, 255, 255);"
-                            href="http://127.0.0.1:5500/index.html">หน้าแรก <span class="sr-only"></span></a>
-                    </li>
-                    <span class="separator"></span>
-                    <li class=" btn-outline-success nav-item">
-                        <a class="nav-link" style="text-decoration: none; color: rgb(255, 255, 255);"
-                            href=" http://127.0.0.1:5500/about.html"">เกี่ยวกับมหาวิทยาลัย</a>
-                    </li>
-                    <span class=" separator"></span>
-                    <li class=" btn-outline-success nav-item">
-                        <a class="nav-link" style="text-decoration: none;color: rgb(255, 255, 255);"
-                            href="http://127.0.0.1:5500/agency.html">หน่วยงาน</a>
-                    </li>
-                    <span class="separator"></span>
-                    <li class=" btn-outline-success nav-item">
-                        <a class="nav-link" style="text-decoration: none;color: rgb(255, 255, 255);"
-                            href="http://127.0.0.1:5500/research.html">วิจัยและวิชาการ</a>
-                    </li>
-                    <span class="separator"></span>
-                    <li class=" btn-outline-success nav-item">
-                        <a class="nav-link" style="text-decoration: none;color: rgb(255, 255, 255);"
-                            href="http://127.0.0.1:5500/around.html">รอบรั้วมหาวิทยาลัย</a>
-                    </li>
-                    <span class="separator1"></span>
+        <!-- Links nav -->
+        <div class="container">
+            <ul class="navbar-nav mr-auto">
+                <li class=" btn-outline-success nav-item  ">
+                    <a class="nav-link" style=" text-decoration: none; color: rgb(255, 255, 255);"
+                        href="http://127.0.0.1:5500/index.html">หน้าแรก <span class="sr-only"></span></a>
+                </li>
+                <span class="separator"></span>
+                <li class=" btn-outline-success nav-item">
+                    <a class="nav-link" style="text-decoration: none; color: rgb(255, 255, 255);"
+                        href=" http://127.0.0.1:5500/about.html"">เกี่ยวกับมหาวิทยาลัย</a>
+                </li>
+                <span class=" separator"></span>
+                <li class=" btn-outline-success nav-item">
+                    <a class="nav-link" style="text-decoration: none;color: rgb(255, 255, 255);"
+                        href="http://127.0.0.1:5500/agency.html">หน่วยงาน</a>
+                </li>
+                <span class="separator"></span>
+                <li class=" btn-outline-success nav-item">
+                    <a class="nav-link" style="text-decoration: none;color: rgb(255, 255, 255);"
+                        href="http://127.0.0.1:5500/research.html">วิจัยและวิชาการ</a>
+                </li>
+                <span class="separator"></span>
+                <li class=" btn-outline-success nav-item">
+                    <a class="nav-link" style="text-decoration: none;color: rgb(255, 255, 255);"
+                        href="http://127.0.0.1:5500/around.html">รอบรั้วมหาวิทยาลัย</a>
+                </li>
+                <li>
                     <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                     </form>
-                    <span class="separator2"></span>
+                </li>
+                <li>
+                    <span class="separator"></span>
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </ul>
-            </div>
+                </li>
+            </ul>
         </div>
-    </nav>
-
-
-
-        <div class="container">
-            <div class="row" style="border-bottom: 2px grey solid; padding-bottom: 1rem; margin-top: 1rem">
-                <!-- <div class="col-md-2"></div> -->
-                <div class="col-md-12 p-0">
-                    <div class="col-md-12">
-                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img class="im1 img-fluid"
-                                        src="https://erp.mju.ac.th/picture/banner/ce4bde97ac40463b81b2474301a88adc.jpg"
-                                        class="d-block w-100" alt="1">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="im2 img-fluid"
-                                        src="https://erp.mju.ac.th/picture/banner/f6f28e86530945b198166086e692757d.jpg"
-                                        class="d-block w-100" alt="2">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="im3 img-fluid"
-                                        src="https://erp.mju.ac.th/picture/banner/aa878d2fe1a84cbeaf7233b405d18f27.jpg"
-                                        class="d-block w-100" alt="3">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="im4 img-fluid"
-                                        src="https://erp.mju.ac.th/picture/banner/d99bb9527976445389729502042b82d6.jpg"
-                                        class="d-block w-100" alt="4">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="im5 img-fluid"
-                                        src="https://erp.mju.ac.th/picture/banner/a65a97d89b08441f919f3966479b633b.jpg"
-                                        class="d-block w-100" alt="5">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="im6 img-fluid"
-                                        src="https://erp.mju.ac.th/picture/banner/b5aaea3378d046f4beb7df2cf7962f46.jpg"
-                                        class="d-block w-100" alt="6">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="im7 img-fluid"
-                                        src="https://erp.mju.ac.th/picture/banner/b910c6184cf846188c66a0de81f869f2.jpg"
-                                        class="d-block w-100" alt="7">
-                                </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
-                                data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleControls" role="button"
-                                data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="col-md-2"></div> -->
-            </div>
-        </div>
-        <!-- <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </a> -->
-        <!-- </div> -->
-
-        <div class="container" style="margin-top: 1rem;">
-            <div class="row">
-                <div class="col-md-12" style="background-color:#003300;">
-                    <p class="p-0 m-0 " style="color:rgb(255, 255, 255); font-size: 20px;">EVENTS</p>
-                </div>
-                <div class="col-md-6" style="background-color:rgba(2, 63, 37, 0.432);">
-                    <p class="p-0 m-0" style="color:white;"></p>
-
-                </div>
-                <div class="col-md-4" style="color: rgb(97, 91, 109);">
-                    <div class="row">
-                        <div class="col-md-1"></div>
-                        <!-- <div class="col-md-4 p-0" style="background-color: whitesmoke;">
-                        <p class="m-0 text-center " style="color: green;font-size: 20px;">MJU LINK</p>
-                    </div> -->
-                        <div class="col-md-7" style="background-color: gray;">
-                            <p class="m-0" style="color: gray ;"></p>
-
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-12"
-                            style="padding-top: 1rem; margin-top: 1rem; background-color: rgba(255, 99, 71, 0.096);">
-                            <div class="row">
-
-                                <div class="col-md-6">
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <img class="mx-auto d-block ab1"
-                                                src="https://www.mju.ac.th/main/images/About_2554/mjuMain_09.jpg" alt=""
-                                                width="120" height="78">
-                                        </div>
-                                        <div class="col-md-9">
-                                            <p class="atext"> ประวัติความเป็นมา </p>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <img class="mx-auto d-block ab2"
-                                                src="https://www.mju.ac.th/main/images/About_2554/mjuMain_22.jpg" alt=""
-                                                width="120" height="78">
-                                        </div>
-                                        <div class="col-md-9">
-                                            <p class="btext"> กรรมการสภามหาวิทยาลัย </p>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <img class="mx-auto d-block"
-                                                src="https://www.mju.ac.th/main/images/About_2554/mjuMain_31.jpg" alt=""
-                                                width="120" height="78">
-                                        </div>
-                                        <div class="col-md-9">
-                                            <p> วีดิทัศน์แนะนำมหาลัย </p>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <img class="mx-auto d-block"
-                                                src="https://erp.mju.ac.th/picture/information/fea23b09f65e41ada4c3fbc494702556s.jpg"
-                                                alt="" width="120" height="78">
-                                        </div>
-                                        <div class="col-md-9">
-                                            <p>
-                                                โครงการยกระดับเศรษฐกิจและเศรษฐกิจสังคมรายตำบลแบบบูรณาการ (1 ตำบล 1
-                                                มหาวิทยาลัย)</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="col-md-6">
-                                    <div class="row">
-                                        <div class="col-md-5">
-                                            <img class="mx-auto d-block"
-                                                src="https://erp.mju.ac.th/picture/information/fea23b09f65e41ada4c3fbc494702556s.jpg"
-                                                alt="" width="120" height="78">
-                                        </div>
-                                        <div class="col-md-7">
-                                            <p>
-                                                โครงการยกระดับเศรษฐกิจและเศรษฐกิจสังคมรายตำบลแบบบูรณาการ (1 ตำบล 1
-                                                มหาวิทยาลัย)</p>
-                                        </div>
-                                        <div class="col-md-5">
-                                            <img class="mx-auto d-block"
-                                                src="https://erp.mju.ac.th/picture/information/fea23b09f65e41ada4c3fbc494702556s.jpg"
-                                                alt="" width="120" height="78">
-                                        </div>
-                                        <div class="col-md-7">
-                                            <p>
-                                                โครงการยกระดับเศรษฐกิจและเศรษฐกิจสังคมรายตำบลแบบบูรณาการ (1 ตำบล 1
-                                                มหาวิทยาลัย)</p>
-                                        </div>
-                                        <div class="col-md-5">
-                                            <img class="mx-auto d-block"
-                                                src="https://erp.mju.ac.th/picture/information/fea23b09f65e41ada4c3fbc494702556s.jpg"
-                                                alt="" width="120" height="78">
-                                        </div>
-                                        <div class="col-md-7">
-                                            <p>
-                                                โครงการยกระดับเศรษฐกิจและเศรษฐกิจสังคมรายตำบลแบบบูรณาการ (1 ตำบล 1
-                                                มหาวิทยาลัย)</p>
-                                        </div>
-                                        <div class="col-md-5">
-                                            <img class="mx-auto d-block"
-                                                src="https://erp.mju.ac.th/picture/information/fea23b09f65e41ada4c3fbc494702556s.jpg"
-                                                alt="" width="120" height="78">
-                                        </div>
-                                        <div class="col-md-7">
-                                            <p>
-                                                โครงการยกระดับเศรษฐกิจและเศรษฐกิจสังคมรายตำบลแบบบูรณาการ (1 ตำบล 1
-                                                มหาวิทยาลัย)</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <!-- <div class="col-md-12">
-                <div class="row">
-                    <div class="col-md-8"
-                        style="padding: 1rem; margin-top: 1rem; background-color: rgba(255, 99, 71, 0.096);">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <img src="https://erp.mju.ac.th/picture/information/fea23b09f65e41ada4c3fbc494702556s.jpg"
-                                            alt="Maejo" width="120" height="78">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <p>โครงการยกระดับเศรษฐกิจและเศรษฐกิจสังคมรายตำบลแบบบูรณาการ (1 ตำบล 1
-                                            มหาวิทยาลัย)</p>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <img src="https://erp.mju.ac.th/picture/information/fea23b09f65e41ada4c3fbc494702556s.jpg"
-                                            alt="Maejo" width="120" height="78">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <p>โครงการยกระดับเศรษฐกิจและเศรษฐกิจสังคมรายตำบลแบบบูรณาการ (1 ตำบล 1
-                                            มหาวิทยาลัย)</p>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <img src="https://erp.mju.ac.th/picture/information/fea23b09f65e41ada4c3fbc494702556s.jpg"
-                                            alt="Maejo" width="120" height="78">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <p>โครงการยกระดับเศรษฐกิจและเศรษฐกิจสังคมรายตำบลแบบบูรณาการ (1 ตำบล 1
-                                            มหาวิทยาลัย)</p>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <img src="https://erp.mju.ac.th/picture/information/fea23b09f65e41ada4c3fbc494702556s.jpg"
-                                            alt="Maejo" width="120" height="78">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <p>โครงการยกระดับเศรษฐกิจและเศรษฐกิจสังคมรายตำบลแบบบูรณาการ (1 ตำบล 1
-                                            มหาวิทยาลัย)</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <img src="https://erp.mju.ac.th/picture/information/fea23b09f65e41ada4c3fbc494702556s.jpg"
-                                            alt="Maejo" width="120" height="78">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <p>โครงการยกระดับเศรษฐกิจและเศรษฐกิจสังคมรายตำบลแบบบูรณาการ (1 ตำบล 1
-                                            มหาวิทยาลัย)</p>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <img src="https://erp.mju.ac.th/picture/information/fea23b09f65e41ada4c3fbc494702556s.jpg"
-                                            alt="Maejo" width="120" height="78">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <p>โครงการยกระดับเศรษฐกิจและเศรษฐกิจสังคมรายตำบลแบบบูรณาการ (1 ตำบล 1
-                                            มหาวิทยาลัย)</p>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <img src="https://erp.mju.ac.th/picture/information/fea23b09f65e41ada4c3fbc494702556s.jpg"
-                                            alt="Maejo" width="120" height="78">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <p>โครงการยกระดับเศรษฐกิจและเศรษฐกิจสังคมรายตำบลแบบบูรณาการ (1 ตำบล 1
-                                            มหาวิทยาลัย)</p>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <img src="https://erp.mju.ac.th/picture/information/fea23b09f65e41ada4c3fbc494702556s.jpg"
-                                            alt="Maejo" width="120" height="78">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <p>โครงการยกระดับเศรษฐกิจและเศรษฐกิจสังคมรายตำบลแบบบูรณาการ (1 ตำบล 1
-                                            มหาวิทยาลัย)</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div> -->
-
-                <!-- <div class="col-md-4">
-                        <div class="row">
-                            <div class="col-md-12 p-0 " style="padding-left: 33px !important;">
-                                <img src="https://www.mju.ac.th/main/images2015/Details_Layout_12.jpg" alt="Maejo"
-                                    width="100%" height="78">
-                                <div class="row">
-                                    <div class="col-md-12 mt-3">
-                                        <div class="row">
-                                            <div class="col-md-3 ">
-                                                <img src="https://www.mju.ac.th/main/images2015/arrow2.gif" width="9"
-                                                    height="9">
-                                            </div>
-
-                                            <div class="col-md-9 ">
-                                                <p style="color: grey; padding: 0 !important">นักศึกษา</p>
-
-                                            </div>
-                                        </div>
-
-
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="row">
-                                                    <div class="col-md-3 ">
-                                                        <img src="https://www.mju.ac.th/main/images2015/arrow2.gif"
-                                                            width="9" height="9">
-                                                    </div>
-
-                                                    <div class="col-md-9 ">
-                                                        <p style="color: grey; padding: 0 !important">นักศึกษา</p>
-
-                                                    </div>
-                                                </div>
-
-                                                <div class="row">
-                                                    <div class="col-md-12">
-                                                        <div class="row">
-                                                            <div class="col-md-3 ">
-                                                                <img src="https://www.mju.ac.th/main/images2015/arrow2.gif"
-                                                                    width="9" height="9">
-                                                            </div>
-
-                                                            <div class="col-md-9 ">
-                                                                <p style="color: grey; padding: 0 !important">นักศึกษา
-                                                                </p>
-
-                                                            </div>
-                                                        </div>
-
-
-
-                                                        <div class="row">
-                                                            <div class="col-md-12 ">
-                                                                <div class="row">
-                                                                    <div class="col-md-3 ">
-                                                                        <img src="https://www.mju.ac.th/main/images2015/arrow2.gif"
-                                                                            width="9" height="9">
-                                                                    </div>
-
-                                                                    <div class="col-md-9 ">
-                                                                        <p style="color: grey; padding: 0 !important">
-                                                                            นักศึกษา</p>
-
-                                                                    </div>
-                                                                </div>
-
-                                                            </div>
-
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-
-                                           
-                                            </div>
-                                        </div>
-
-
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div> -->
-
-                <!-- <div class="col-md-12">
-        <div class="row">
-          <div class="col-md-8">
-            test
-            <div class="row">
-              <div class="col-md-6">
-                <div class="row">
-                  <div class="col-md-5">
-                    <img src="https://erp.mju.ac.th/picture/information/fea23b09f65e41ada4c3fbc494702556s.jpg"
-                      alt="Maejo" width="120" height="78">
-                  </div>
-                  <div class="col-md-7">
-                    <p>โครงการยกระดับเศรษฐกิจและเศรษฐกิจสังคมรายตำบลแบบบูรณาการ (1 ตำบล 1 มหาวิทยาลัย)</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">test</div>
-            </div>
-
-          </div>
-          <div class="col-md-4">
-            test
-          </div>
-        </div>
-      </div>
     </div>
-  </div> -->
+</nav>
+
+
+<!-- Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="accordion accordion-flush" id="accordionFlushExample" style="background-color: white;">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    สำนักงานสภามหาวิทยาลัย
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <a href="">สำนักงานสภามหาวิทยาลัย</a>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        สำนักงานมหาวิทยาลัย
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <div class="row"><a href="">กองกลาง</a></div>
+                                        <div class="row"><a href="">กองพัฒนาคุณภาพ</a></div>
+                                        <div class="row"><a href="">กองการเจ้าหน้าที่</a></div>
+                                        <div class="row"><a href="">กองพัฒนานักศึกษา</a></div>
+                                        <div class="row"><a href="">กองคลัง</a></div>
+                                        <div class="row"><a href="">กองวิเทศสัมพันธ์</a></div>
+                                        <div class="row"><a href="">กองตรวจสอบภายใน</a></div>
+                                        <div class="row"><a href="">กองส่งเสริมศิลปวัฒนธรรม</a></div>
+                                        <div class="row"><a href="">กองเทคโนโลยีดิจิทัล</a></div>
+                                        <div class="row"><a href="">กองกายภาพและสิ่งแวดล้อม</a></div>
+                                        <div class="row"><a href="">กองบริหารงานทรัพย์สินและกิจการพิเศษ</a></div>
+                                        <div class="row"><a href="">สภาพนักงาน</a></div>
+                                        <div class="row"><a href="">กองแผนงาน</a></div>
+                                        <div class="row"><a href="">ฝ่ายสื่อสารองค์กร</a></div>
+                                        <div class="row"><a href="">ฝ่ายพัฒนาทรัพยากรมนุษย์</a></div>
+                                        <div class="row"><a href="">ฝ่ายกฏหมาย</a></div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                            aria-expanded="false" aria-controls="flush-collapseThree">
+                                            คณะ
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <div class="row"><a href="">คณะบริหารธุรกิจ</a></div>
+                                            <div class="row"><a href="">คณะวิทยาศาสตร์</a></div>
+                                            <div class="row"><a href="">คณะเทคโนโลยีการประมงและทรัพยากรทางน้ำ</a></div>
+                                            <div class="row"><a href="">คณะศิลปศาสตร์</a></div>
+                                            <div class="row"><a href="">คณะสถาปัตยกรรมศาสตร์ และการออกแบบสิ่งแวดล้อม</a>
+                                            </div>
+                                            <div class="row"><a href="">คณะสารสนเทศและการสื่อสาร</a></div>
+                                            <div class="row"><a href="">คณะผลิตกรรมการเกษตร</a></div>
+                                            <div class="row"><a href="">คณะวิศวกรรมและอุตสาหกรรมเกษตร</a></div>
+                                            <div class="row"><a href="">คณะพัฒนาการท่องเที่ยว</a></div>
+                                            <div class="row"><a href="">คณะเศรษฐศาสตร์</a></div>
+                                            <div class="row"><a href="">คณะสัตวศาสตร์และเทคโนโลยี</a></div>
+                                            <div class="row"><a href="">มหาวิทยาลัยแม่โจ้-แพร่ เฉลิมพระเกียรติ</a></div>
+                                            <div class="row"><a href="">มหาวิทยาลัยแม่โจ้-ชุมพร</a></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingFour">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
+                                                aria-expanded="false" aria-controls="flush-collapseFour">
+                                                วิทยาลัย
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <div class="row"><a href="">วิทยาลัยนานาชาติ</a></div>
+                                                <div class="row"><a href="">วิทยาลัยพลังงานทดแทน</a></div>
+                                                <div class="row"><a href="">วิทยาลัยบริหารศาสตร์</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-heading5">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse5"
+                                                aria-expanded="false" aria-controls="flush-collapse5">
+                                                สำนัก
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse5" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-heading5" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <div class="row"><a href="">สำนักวิจัยและส่งเสริมวิชาการการเกษตร</a>
+                                                </div>
+                                                <div class="row"><a href="">สำนักบริหารและพัฒนาวิชาการ</a></div>
+                                                <div class="row"><a href="">สำนักหอสมุด</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-heading6">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse6"
+                                                aria-expanded="false" aria-controls="flush-collapse6">
+                                                หน่วยงานวิสาหกิจ
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse6" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-heading6" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <div class="row"><a href="">ศูนย์วิจัยและพัฒนาเกษตรธรรมชาติ</a></div>
+                                                <div class="row"><a href="">ฟาร์มมหาวิทยาลัย</a></div>
+                                                <div class="row"><a
+                                                        href="">สถาบันบริการตรวจสอบคุณภาพและมาตรฐานผลิตภัณฑ์</a>
+                                                </div>
+                                                <div class="row"><a
+                                                        href="">อุทยานวิทยาศาสตร์เทคโนโลยีเกษตรและอาหาร(สถาบันบ่มเพาะวิสาหกิจ)</a>
+                                                </div>
+                                                <div class="row"><a href="">สถาบันรับรองระบบการผลิตผลิตภัณฑ์การเกษตร</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-heading7">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse7"
+                                                aria-expanded="false" aria-controls="flush-collapse7">
+                                                หน่วยงานอื่นๆ
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse7" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-heading7" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <div class="row"><a href="">หอพักนักศึกษา</a></div>
+                                                <div class="row"><a
+                                                        href="">โครงการอนุรักษ์พันธุกรรมพืชอันเนื่องมาจากพระราชดำริฯ</a>
+                                                </div>
+                                                <div class="row"><a href="">สโมสรบุคลากรมหาวิทยาลัยแม่โจ้</a></div>
+                                                <div class="row"><a href="">สหกรณ์ออมทรัพย์มหาวิทยาลัยแม่โจ้</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
             </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
 </body>
+<!--------Footer----------->
+
+<footer class="social-footer">
+    <div class="social-footer-left">
+        <a href="#"><img src="https://upload.wikimedia.org/wikipedia/th/4/43/มหาวิทยาลัยแม่โจ้_edit.png"
+                alt="logofooter" width="100" height="100"></a>
+    </div>
+
+    <div class="col-sm-9">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-2 te1">
+                    หน้าหลัก
+                </div>
+                <div class="col-md-10 te1">
+                    เกี่ยวกับมหาวิทยาลัย | หน่วยงาน | การศึกษา | วิจัยและบริการวิชาการ |
+                    รอบรั้วมหาวิทยาลัย | Q & A
+                </div>
+                <div class="col-md-2 te1">
+                    ข่าว
+                </div>
+                <div class="col-md-10 te1">
+                    ข่าวกิจกรรม | ข่าวประกาศทั่วไป | ข่าวรับสมัครงาน | ข่าวประกวดราคา
+                </div>
+                <div class="col-md-2 te1">
+                    วิทยาเขต
+                </div>
+                <div class="col-md-10 te1">
+                    มหาวิทยาลัยแม่โจ้ - แพร่เฉลิมพระเกียรติ | มหาวิทยาลัยแม่โจ้ - ชุมพร
+                </div>
+                <div class="col-md-2 te1">
+                    สื่อออนไลน์
+                </div>
+                <div class="col-md-10 te1">
+                    MJU CHANNEL | MJU Radio
+                </div>
+                <div class="col-md-2 te1">
+                    ที่พัก สัมมนา
+                </div>
+                <div class="col-md-10 te1">
+                    ศูนย์การศึกษาและฝึกอบรมนานาชาติ
+                </div>
+                <div class="col-md-2 te1">
+                    Maejo Int. J. Sci
+                </div>
+                <div class="col-md-10 te1">
+                    Maejo International Journal of Science and Technology
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-1"></div>
+        <div class="col-6 col-md-11 te3"></div>
+        <div class="col-md-12 te2"> มหาวิทยาลัยแม่โจ้ 63 หมู่ 4 ต.หนองหาร อ.สันทราย จ.เชียงใหม่ 50290
+            โทรศัพท์ : 053 873000 โทรสาร : 053 873015 maejo@mju.ac.th | MJU Map แผนที่มหาวิทยาลัย </div>
+    </div>
+    <div class="social-footer-icons">
+        <ul class="menu simple">
+            <li><a href="#"><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/46-facebook-512.png"
+                        alt="facebook" width="50" height="50"></a></li>
+            <li><a href="#"><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/38-instagram-512.png"
+                        alt="instagram" width="50" height="50"></a></li>
+            <li><a href="#"><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/03-twitter-512.png"
+                        alt="twitter" width="50" height="50"></a></li>
+        </ul>
+    </div>
+</footer>
 
 
 

@@ -40,6 +40,19 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+
 </head>
 
 
@@ -100,8 +113,8 @@
         <li class=" btn-outline-success nav-item">
           <a class="nav-link" style="text-decoration: none; color: rgb(255, 255, 255);"
             href=" http://127.0.0.1:5500/about.html"">เกี่ยวกับมหาวิทยาลัย</a>
-                    </li>
-                    <span class=" separator"></span>
+              </li>
+              <span class=" separator"></span>
         <li class=" btn-outline-success nav-item">
           <a class="nav-link" style="text-decoration: none;color: rgb(255, 255, 255);"
             href="http://127.0.0.1:5500/agency.html">หน่วยงาน</a>
@@ -116,12 +129,15 @@
           <a class="nav-link" style="text-decoration: none;color: rgb(255, 255, 255);"
             href="http://127.0.0.1:5500/around.html">รอบรั้วมหาวิทยาลัย</a>
         </li>
-        <span class="separator1"></span>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        </form>
-        <span class="separator2"></span>
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <li>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          </form>
+        </li>
+        <li>
+          <span class="separator"></span>
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </li>
       </ul>
     </div>
   </div>
@@ -130,42 +146,49 @@
 
 
 
-<div class="container">
-  <div class="row p-5">
+<!-- Content -->
+
+<div class="row p-0">
+  <div class="container">
     <div class="col-md-12">
       <div class="col-md-12 text-md-center">
-        <p class="m-0 " style="font-size:50px;">ในรั้วมหาวิทยาลัย</p>
+        <h4 class="m-0 " style="font-size:50px;">รอบรั้วมหาวิทยาลัย</h4>
       </div>
 
-
-      <div class="col-md-12 p-4 text-md-center">
-        <img src="https://sites.google.com/site/maejogisdatabase/_/rsrc/1429606150316/classroom-news/94044-pic-1.jpg"
-          alt="" height="100%" width="100%">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12" style="text-align: center;">
+            <img src="http://www.agro-tourism.mju.ac.th/assets/img/maejo.jpg" alt="" width="50%" height="90%">
+          </div>
+        </div>
       </div>
 
-
-      <div class="col-md-12">
-        <div class="row te4">
+      <div class="container">
+        <div class="col-md-12">
+          <div class="row te4">
+          </div>
+          <p class="text-md-start p-3 btext"> มหาวิทยาลัยแม่โจ้
+            เป็นมหาวิทยาลัยหลักและเก่าแก่แห่งหนึ่งในเมืองเชียงใหม่ โดยมีจุดกำเนิดมาจาก
+            "โรงเรียนฝึกหัดครูประถมกสิกรรมหอวัง" ซึ่งจัดตั้งโดยเจ้าพระยาธรรมศักดิ์มนตรี
+            เสนาบดีกระทรวงธรรมการ ในปี พ.ศ. 2460 โดยตั้งอยู่ที่บริเวณหอวัง
+            หรือบ้านสวนหลวงสระประทุม (บริเวณกรีฑาสถานแห่งชาติในปัจจุบัน)
+            โรงเรียนแห่งนี้ต่อมาเป็นรากฐานความคิดและกิจกรรมของรัฐด้านให้การศึกษาแผนใหม่ทางการเกษตร
+            นปี พ.ศ. 2477 กระทรวงธรรมการได้จัดตั้ง "โรงเรียนฝึกหัดครูประถมกสิกรรมภาคเหนือ"
+            ขึ้นโดยมีพระช่วงเกษตรศิลปะการ ซึ่งขณะนั้นเป็นหัวหน้าสถานีทดลองกสิกรรมภาคพายัพ
+            ดำรงตำแหน่งเป็นหัวหน้าสถานีทดลองกสิกรรมภาคพายัพ ดำรงตำแหน่งเป็นอาจารย์ใหญ่ และในปี 2479
+            กระทรวงธรรมการได้จัดตั้ง "โรงเรียนมัธยมวิสามัญเกษตรกรรมภาคเหนือ"
+            ขึ้นในพื้นที่บริเวณเดียวกัน
+          </p>
+          <div class="row te4">
+          </div>
         </div>
-        <p class="text-md-start p-3 btext"> มหาวิทยาลัยแม่โจ้
-          เป็นมหาวิทยาลัยหลักและเก่าแก่แห่งหนึ่งในเมืองเชียงใหม่ โดยมีจุดกำเนิดมาจาก
-          "โรงเรียนฝึกหัดครูประถมกสิกรรมหอวัง" ซึ่งจัดตั้งโดยเจ้าพระยาธรรมศักดิ์มนตรี
-          เสนาบดีกระทรวงธรรมการ ในปี พ.ศ. 2460 โดยตั้งอยู่ที่บริเวณหอวัง
-          หรือบ้านสวนหลวงสระประทุม (บริเวณกรีฑาสถานแห่งชาติในปัจจุบัน)
-          โรงเรียนแห่งนี้ต่อมาเป็นรากฐานความคิดและกิจกรรมของรัฐด้านให้การศึกษาแผนใหม่ทางการเกษตร
-          นปี พ.ศ. 2477 กระทรวงธรรมการได้จัดตั้ง "โรงเรียนฝึกหัดครูประถมกสิกรรมภาคเหนือ"
-          ขึ้นโดยมีพระช่วงเกษตรศิลปะการ ซึ่งขณะนั้นเป็นหัวหน้าสถานีทดลองกสิกรรมภาคพายัพ
-          ดำรงตำแหน่งเป็นหัวหน้าสถานีทดลองกสิกรรมภาคพายัพ ดำรงตำแหน่งเป็นอาจารย์ใหญ่ และในปี 2479
-          กระทรวงธรรมการได้จัดตั้ง "โรงเรียนมัธยมวิสามัญเกษตรกรรมภาคเหนือ"
-          ขึ้นในพื้นที่บริเวณเดียวกัน
-        </p>
-        <div class="row te4">
-        </div>
+      </div>
 
-
+      
+      <div class="container">
         <div class="col-sm-12 ">
           <div class="row">
-            <div class="col-6 col-md-5 contact"> สถานที่อำนวยความสะดวกในมหาวิทยาลัย </div>
+            <div class="col-6 col-md-5" style="font-size: 23px;"> สถานที่อำนวยความสะดวกในมหาวิทยาลัย </div>
             <div class="col-6 col-md-7"></div>
           </div>
 
@@ -207,139 +230,200 @@
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
 
+          <div class="row te4">
+          </div>
 
-              <div class="row te4">
-              </div>
-
-
+          <div class="container">
+            <div class="row">
+              <!-- <div class="col-6 col-md-4"></div> -->
+              <div class="col-6 col-md-4" style="font-size: 23px;"> หอพัก </div>
+              <div class="col-6 col-md-8"></div>
               <div class="row">
 
-                <!-- <div class="col-6 col-md-4"></div> -->
-                <div class="col-6 col-md-4 contact"> หอพัก </div>
-                <div class="col-6 col-md-8"></div>
-                <div class="row">
-
-                  <div class="row ">
-                    <div class="col-md-4">
-                    </div>
-                    <div class="col-md-4">
-
-                      <img style="margin-top: 1.5rem; padding-bottom: 1.5rem;"
-                        src="https://www.mfu.ac.th/fileadmin/_processed_/0/3/csm_BCR_2808_646d8d317b.jpg" alt="1t"
-                        width="100%" height="100%">
-
-                    </div>
-                    <div class="col-md-4">
-                    </div>
+                <div class="row ">
+                  <div class="col-md-4">
                   </div>
+                  <div class="col-md-4">
 
-                  <div class="container" style="margin-top: 1rem;">
-                    <div class="col-md-12">
-                      <div class="row">
+                    <img style="margin-top: 1.5rem; padding-bottom: 1.5rem;"
+                      src="https://www.mfu.ac.th/fileadmin/_processed_/0/3/csm_BCR_2808_646d8d317b.jpg" alt="1t"
+                      width="100%" height="100%">
 
+                  </div>
+                  <div class="col-md-4">
+                  </div>
+                </div>
 
-                        <div class="col-md-12">
-                          <div class="row">
-                            <div class="col-md-12 ff">
-                              <div class="row">
-
-                                <div class="col-md-6">
-                                  <div class="row">
-                                    <div class="col-md-3">
-                                    </div>
-                                    <div class="col-md-9">
-                                      <p class="sp3"> หอพักชาย </p>
-                                    </div>
-
-                                    <div class="col-md-3">
-                                    </div>
-                                    <div class="col-md-9">
-                                      <p class="sp4"> หอ2 เทพนฤมิต </p>
-                                    </div>
-
-                                    <div class="col-md-3">
-                                    </div>
-                                    <div class="col-md-9">
-                                      <p class="sp4"> หอ4 หอพักวัฒนศิลป์ </p>
-                                    </div>
-
-                                    <div class="col-md-3">
-                                    </div>
-                                    <div class="col-md-9">
-                                      <p class="sp4"> หอ6 หอพักผดุงศิลป์ </p>
-                                    </div>
-
-                                    <div class="col-md-3">
-                                    </div>
-                                    <div class="col-md-9">
-                                      <p class="sp4"> หอ7 หอพักศรีเกษตร </p>
-                                    </div>
+                <div class="container" style="margin-top: 1rem;">
+                  <div class="col-md-12">
+                    <div class="row">
 
 
+                      <div class="col-md-12">
+                        <div class="row">
+                          <div class="col-md-12 ff">
+                            <div class="row">
 
+                              <div class="col-md-6">
+                                <div class="row">
+                                  <div class="col-md-3">
                                   </div>
+                                  <div class="col-md-9">
+                                    <p class="sp3"> หอพักชาย </p>
+                                  </div>
+
+                                  <div class="col-md-3">
+                                  </div>
+                                  <div class="col-md-9">
+                                    <p class="sp4"> หอ2 เทพนฤมิต </p>
+                                  </div>
+
+                                  <div class="col-md-3">
+                                  </div>
+                                  <div class="col-md-9">
+                                    <p class="sp4"> หอ4 หอพักวัฒนศิลป์ </p>
+                                  </div>
+
+                                  <div class="col-md-3">
+                                  </div>
+                                  <div class="col-md-9">
+                                    <p class="sp4"> หอ6 หอพักผดุงศิลป์ </p>
+                                  </div>
+
+                                  <div class="col-md-3">
+                                  </div>
+                                  <div class="col-md-9">
+                                    <p class="sp4"> หอ7 หอพักศรีเกษตร </p>
+                                  </div>
+
+
+
                                 </div>
+                              </div>
 
 
 
-                                <div class="col-md-6">
-                                  <div class="row">
+                              <div class="col-md-6">
+                                <div class="row">
 
 
-                                    <div class="col-md-3">
-                                    </div>
-                                    <div class="col-md-9">
-                                      <p class="sp3"> หอพักหญิง </p>
-                                    </div>
+                                  <div class="col-md-3">
+                                  </div>
+                                  <div class="col-md-9">
+                                    <p class="sp3"> หอพักหญิง </p>
+                                  </div>
 
 
-                                    <div class="col-md-3">
-                                    </div>
-                                    <div class="col-md-9">
-                                      <p class="sp4"> หอ8 หอพักสุมิตร </p>
-                                    </div>
+                                  <div class="col-md-3">
+                                  </div>
+                                  <div class="col-md-9">
+                                    <p class="sp4"> หอ8 หอพักสุมิตร </p>
+                                  </div>
 
 
-                                    <div class="col-md-3">
-                                    </div>
-                                    <div class="col-md-9">
-                                      <p class="sp4"> หอ9 หอพักฝึกหัดครู </p>
-                                    </div>
+                                  <div class="col-md-3">
+                                  </div>
+                                  <div class="col-md-9">
+                                    <p class="sp4"> หอ9 หอพักฝึกหัดครู </p>
+                                  </div>
 
 
-                                    <div class="col-md-3">
-                                    </div>
-                                    <div class="col-md-9">
-                                      <p class="sp4"> หอ10 หอพักรัตมา </p>
-                                    </div>
+                                  <div class="col-md-3">
+                                  </div>
+                                  <div class="col-md-9">
+                                    <p class="sp4"> หอ10 หอพักรัตมา </p>
+                                  </div>
 
 
-                                    <div class="col-md-3">
-                                    </div>
-                                    <div class="col-md-9">
-                                      <p class="sp4"> หอ11 หอพักอุดมศิลป์ </p>
-                                    </div>
+                                  <div class="col-md-3">
+                                  </div>
+                                  <div class="col-md-9">
+                                    <p class="sp4"> หอ11 หอพักอุดมศิลป์ </p>
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
-
                       </div>
                     </div>
                   </div>
-
-
-
-
                 </div>
               </div>
             </div>
           </div>
-          </body>
+        </div>
+      </div>
+      </body>
 
+      <!--------Footer----------->
 
+      <footer class="social-footer">
+        <div class="social-footer-left">
+          <a href="#"><img src="https://upload.wikimedia.org/wikipedia/th/4/43/มหาวิทยาลัยแม่โจ้_edit.png"
+              alt="logofooter" width="100" height="100"></a>
+        </div>
+
+        <div class="col-sm-9">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-2 te1">
+                หน้าหลัก
+              </div>
+              <div class="col-md-10 te1">
+                เกี่ยวกับมหาวิทยาลัย | หน่วยงาน | การศึกษา | วิจัยและบริการวิชาการ |
+                รอบรั้วมหาวิทยาลัย | Q & A
+              </div>
+              <div class="col-md-2 te1">
+                ข่าว
+              </div>
+              <div class="col-md-10 te1">
+                ข่าวกิจกรรม | ข่าวประกาศทั่วไป | ข่าวรับสมัครงาน | ข่าวประกวดราคา
+              </div>
+              <div class="col-md-2 te1">
+                วิทยาเขต
+              </div>
+              <div class="col-md-10 te1">
+                มหาวิทยาลัยแม่โจ้ - แพร่เฉลิมพระเกียรติ | มหาวิทยาลัยแม่โจ้ - ชุมพร
+              </div>
+              <div class="col-md-2 te1">
+                สื่อออนไลน์
+              </div>
+              <div class="col-md-10 te1">
+                MJU CHANNEL | MJU Radio
+              </div>
+              <div class="col-md-2 te1">
+                ที่พัก สัมมนา
+              </div>
+              <div class="col-md-10 te1">
+                ศูนย์การศึกษาและฝึกอบรมนานาชาติ
+              </div>
+              <div class="col-md-2 te1">
+                Maejo Int. J. Sci
+              </div>
+              <div class="col-md-10 te1">
+                Maejo International Journal of Science and Technology
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-1"></div>
+          <div class="col-6 col-md-11 te3"></div>
+          <div class="col-md-12 te2"> มหาวิทยาลัยแม่โจ้ 63 หมู่ 4 ต.หนองหาร อ.สันทราย จ.เชียงใหม่ 50290
+            โทรศัพท์ : 053 873000 โทรสาร : 053 873015 maejo@mju.ac.th | MJU Map แผนที่มหาวิทยาลัย </div>
+        </div>
+        <div class="social-footer-icons">
+          <ul class="menu simple">
+            <li><a href="#"><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/46-facebook-512.png"
+                  alt="facebook" width="50" height="50"></a></li>
+            <li><a href="#"><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/38-instagram-512.png"
+                  alt="instagram" width="50" height="50"></a></li>
+            <li><a href="#"><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/03-twitter-512.png"
+                  alt="twitter" width="50" height="50"></a></li>
+          </ul>
+        </div>
+      </footer>
 
 </html>
