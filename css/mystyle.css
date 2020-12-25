@@ -1,227 +1,55 @@
-/* .top-bar{
-  background-color: rgba(173, 173, 173, 0);
-  height: 2.6rem;
-  padding: 0.5rem;
-  text-align: right;
-}
 
-.top-bar a{
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  font-size: 1.1rem;
-} */
-
-/* .navbar{
-    background-color: rgb(221, 236, 154);
-    height:10rem;  
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("https://cdn.pixabay.com/photo/2018/10/15/07/33/background-3748310_1280.jpg");  
-
-    height: 30%;
-  
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    
-
-} */
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  width: 100%;
-  height: 70px;
-  padding: 0 20px;
-  background-color: white;
-  top: 0;
-  left: 0;
-}
-
-.nav {
-margin: 0 auto 0 100px;
-
-}
-.nav ul {
-display: flex;
-list-style-type: none;
-color: black;
-}
-
-.separator {
-margin: 0 30px;;
-}
-
-.separator1 {
-  margin: 0 10px;;
-  }
-
-  .separator2 {
-    margin: 100 0px;;
-    }
-
- .navbar_logo {
-  height: 100px;
-  text-align: left;
-}
-.navbar_logo_center{
-  height: 70px;
-  /* margin-left: 25rem; */
-}
-
-
-
-/* .maejo_header{
-       height: 100px; 
-      ระยะขอบด้านขวา นอกกล่อง
-       margin-left: 3rem; 
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 40%;
-    
-      
-} */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,500i,600,600i,700,700i,800|Open+Sans:400,400i,600,600i,700,700i,800&display=swap);
 
 .maejo_text{
-      /* ขนาด font */
-      font-size: 30px; 
-      /* ขนาดความหนา */
-      font-weight: bold;
-      color: white;
-      /* เงาตัวอักษร */
-      text-shadow: 2px 2px 4px darkgrey;
-      
+  /* ขนาด font */
+  font-size: 30px; 
+  /* ขนาดความหนา */
+  font-weight: bold;
+  color: white;
+  /* เงาตัวอักษร */
+  text-shadow: 2px 2px 4px darkgrey;
 
 }   
 .maejo_eng_text{
-      /* ขนาด font */
-      font-size: 20px; 
-      /* ขนาดความหนา */
-      font-weight: bold;
-      color: white;
-      /* เงาตัวอักษร */
-      text-shadow: 2px 2px 4px darkgrey;
-      
-     
-
+  /* ขนาด font */
+  font-size: 20px; 
+  /* ขนาดความหนา */
+  font-weight: bold;
+  color: white;
+  /* เงาตัวอักษร */
+  text-shadow: 2px 2px 4px darkgrey;
 }
-/* .navbar_text{ 
-    background-color: rgb(159, 248, 159);
-
-} */
-/* .Image_MaejoOne{
-  max-height: 100%;
-  max-width: 100%;
-border: 1px solid black;
-}
-.Image_MaejoTwo{
-  max-height: 100%;
-  max-width: 100%;
-border: 1px solid black;
-}
-.Image_MaejoTree{
-
-  max-height: 100%;
-  max-width: 100%;
-  border: 1px solid black;
-}
-.Image_MaejoFour{
-  max-height: 100%;
-  max-width: 100%;
-  border: 1px solid black;
-} */
- .navbar_Image{
-  margin-left: 6.5rem;
-  margin-right: 10rem;
-}  
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-.bgcolor{
-  background-color: #006400; 
-  height: 2rem; 
+.navbar_logo_center{
+  height: 70px;
 }
 
-.textcenter{
-  border-right: solid 5px white;
-  
+
+.social-footer {
+  padding: 1rem;
+  background: #8a8a8a;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.Image{
- border-bottom: 2px grey solid; padding-bottom: 1rem;
- margin-top: 2rem;
- 
+.social-footer .social-footer-icons li:last-of-type {
+  margin-right: 0;
 }
 
-/* .row, .container-fluid {
-  margin-left: 0px !important;
-  margin-right: 0px !important;
-}
-.fixed-background {
-  position: relative;
-  width: 100%;
-  z-index: 1000!important;
-}
-.fixed-wrap {
-  clip: rect(0, auto, auto, 0);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -999 !important;
-}
-.fixed {
-  z-index: -999!important;
-  display: block;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center center;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  will-change: transform;
-}*/
-
-.liab1{
-   border-bottom: 3px brown solid;
+.social-footer .social-footer-icons .fa {
+  font-size: 1.3rem;
+  color: #fefefe;
 }
 
-.teab1{
-
-    font-size: 25px;
+.social-footer .social-footer-icons .fa:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
 }
 
-.imab{
-  margin-bottom: 2rem;
-}
-
-.atext{
-  margin-top: 1.5rem;
-  font-size: 20px;
-}
-
-.liab2{
-  border-bottom: 3px brown solid;
-}
-
-.teab2{
-
-   font-size: 25px;
-}
-
-.imab2{
- margin-bottom: 10rem;
-}
-
-.atext2{
- /* margin-top: 1.5rem; */
- font-size: 20px;
-}
